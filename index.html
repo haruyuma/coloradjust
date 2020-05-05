@@ -16,16 +16,16 @@
             <div v-bind:style="{backgroundColor:mixColor}">
                 <div class="input-rgb">
                     <div class="left-column">
-                        <p style="color:red"  ><b>RED</p>
-                        <input type="number" v-model="Red" min="0" max="255"><br>
+                        <p style="color:red"><b><font size="6">RED</font></p>
+                        <font size="6"><input type="number" v-model="Red" min="0" max="255"></font><br>
                         <input class="color-range" type="range" v-model="Red"   min="0" max="255">
 
-                        <p class="color-info-disp" style="color:green"><b>GREEN</b></p>
-                        <input type="number" v-model="Green"  min="0" max="255"><br>                           
+                        <p class="color-info-disp" style="color:green"><b><font size="6">GREEN</font></p>
+                        <font size="6"><input type="number" v-model="Green"  min="0" max="255"></font><br>
                         <input class="color-range" type="range" v-model="Green" min="0" max="255">
 
-                        <p class="color-info-disp" style="color:blue" ><b>BLUE</b></p>
-                        <input type="number"  v-model="Blue" min="0" max="255"><br>
+                        <p class="color-info-disp" style="color:blue"><b><font size="6">BLUE</font></p>
+                        <font size="6"><input type="number"  v-model="Blue" min="0" max="255"></font><br>
                         <input class="color-range" type="range" v-model="Blue"  min="0" max="255">
                         
                         <p id="color-check" >{{ ValidValueCheck }}</p>
